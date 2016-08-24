@@ -18,9 +18,7 @@ int main()
     string name;
     // escape character
     while ( name != "-1")
-
     {
-    
     cout << "Enter name, plz: ";
     cin >> name;
     // formulating greeting
@@ -28,7 +26,6 @@ int main()
     // building components of the output one piece at a time
     const string spaces(greeting.size(), ' ');
     const string second = "* " + spaces + " *";
-
     const string first(second.size(), '*');
     // putting everything together
     cout << first << endl;
@@ -37,5 +34,6 @@ int main()
     cout << second << endl;
     cout << first << endl;
     }
+    
     return 0;
 }
